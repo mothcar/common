@@ -26,3 +26,5 @@ $ sails lift
 http://orientdb.com/docs/last/OrientJS.html
 
 
+o2
+http://orientdb.com/welcome-to-orientjs/
