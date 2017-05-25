@@ -16,3 +16,6 @@ $ sails lift
 ~~~~
 
 7. connect localhost:1337
+
+8. graph :: http://orientdb.com/docs/2.0/orientdb-studio.wiki/Graph-Editor.html
+
