@@ -19,3 +19,10 @@ $ sails lift
 
 8. graph :: http://orientdb.com/docs/2.0/orientdb-studio.wiki/Graph-Editor.html
 
+
+
+### orientDB and Node js
+
+http://orientdb.com/docs/last/OrientJS.html
+
+
