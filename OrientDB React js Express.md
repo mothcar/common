@@ -1,4 +1,8 @@
-### Seed
+### Orient DB의 비교된 표를 보고 이것을 해야만 하는 이유를 잘 이해하자.
+   [link](http://orientdb.com/orientdb-vs-mongodb/ "OrientDB VS MongoDB")
+    
+
+## Seed
 https://github.com/tonyspiro/react-universal-blog
 
 ## DOC
@@ -6,7 +10,7 @@ https://orientdb.com/docs/2.2/OrientJS-Record.html
 
 
 
-### tutorials
+## tutorials
 OrientDB : open tutorial :: https://opentutorials.org/module/2026/11980
 React js : 김민준 :: Skeleton  https://velopert.com/1174
 ~~~~
