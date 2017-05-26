@@ -1,13 +1,14 @@
 ### Seed
 https://github.com/tonyspiro/react-universal-blog
 
-
+## DOC
+https://orientdb.com/docs/2.2/OrientJS-Record.html
 
 
 
 ### tutorials
-
-김민준 :: Skeleton  https://velopert.com/1174
+OrientDB : open tutorial :: https://opentutorials.org/module/2026/11980
+React js : 김민준 :: Skeleton  https://velopert.com/1174
 ~~~~
 $ git clone https://github.com/velopert/react-skeleton.git
 ~~~~
