@@ -10,3 +10,7 @@ $ mkdir /data/db
 $ mongod --dbpath /data/db
 
 ~~~~
+
+https://cloud.mongodb.com/v2/592d01f4d383ad69bc742de9#clusters?tooltip=nds.ipwhitelist&step=0
+root
+1x4 + ax4
