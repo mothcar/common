@@ -2,6 +2,12 @@
 [tutorial](http://aperiodic.net/screen/quick_reference)
 
 ~~~~
+//installation
+$ sudo apt-get update
+$ sudo apt-get upgrade
+$ sudo apt-get install screen
+
+
 $ screen                  // 시작
 command + a               // 명령어 넣기 주로 d로 원래 terminal로 돌아오기
 $ screen -r <pid>         // 특정 pid로 이동
