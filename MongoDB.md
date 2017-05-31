@@ -9,6 +9,7 @@ $ sudo apt-get install -y mongodb-org
 $ mkdir /data/db
 $ mongod --dbpath /data/db
 
+$ service mongod stop
 ~~~~
 
 ## mongolab
