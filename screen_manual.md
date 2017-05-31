@@ -1,4 +1,6 @@
 ## SCREEN
+[tutorial](http://aperiodic.net/screen/quick_reference)
+
 ~~~~
 $ screen                  // 시작
 command + a               // 명령어 넣기 주로 d로 원래 terminal로 돌아오기
