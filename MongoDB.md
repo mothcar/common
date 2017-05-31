@@ -9,6 +9,9 @@ $ sudo apt-get install -y mongodb-org
 $ mkdir /data/db
 $ mongod --dbpath /data/db
 
+// when use cloud server
+$ mongod --smallfiles
+
 $ service mongod stop
 ~~~~
 
