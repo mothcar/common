@@ -15,6 +15,8 @@ $ mongod --smallfiles
 $ service mongod stop
 ~~~~
 
+[mongoose](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/mongoose)
+
 ## mongolab
 https://mlab.com/
 
