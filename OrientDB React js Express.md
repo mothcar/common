@@ -2,6 +2,14 @@
    [link](http://orientdb.com/orientdb-vs-mongodb/ "OrientDB VS MongoDB")
     
 
+## start with express
+```
+$ create-react-app APPNAME
+$ npm install express save
+$ npm install react-view-engine --save
+$ 
+```
+
 ## Seed
 https://github.com/tonyspiro/react-universal-blog
 
