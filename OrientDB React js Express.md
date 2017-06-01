@@ -1,8 +1,17 @@
 ### Orient DB의 비교된 표를 보고 이것을 해야만 하는 이유를 잘 이해하자.
    [link](http://orientdb.com/orientdb-vs-mongodb/ "OrientDB VS MongoDB")
     
-
 ## start with express
+```
+$ npm init
+$ npm install webpack webpack-dev-server
+$ npm install babel babel-core babel-loader preset-es2015 preset-react
+
+// create File 'webpack.config.js
+```
+
+
+## start with React js
 ```
 $ create-react-app APPNAME
 $ npm install express save
