@@ -25,6 +25,16 @@ database name : meeteamdb
 tutorial :: 
 [link](https://zellwk.com/blog/crud-express-mongodb/)
 
+## command on Terminal
+```
+> show dbs
+> use DBNAME
+> show collections
+> db.name.insert()
+> db.name.find()
+> db.name.find({name : 'want a name'})
+```
+
 ## mongodb Cloud
 https://cloud.mongodb.com/v2/592d01f4d383ad69bc742de9#clusters?tooltip=nds.ipwhitelist&step=0
 root
