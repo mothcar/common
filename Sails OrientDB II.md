@@ -18,7 +18,7 @@ $ sails new <projectName>
  ```
  ![](https://github.com/mothcar/common/blob/master/images/controller.jpg)
  
- 3. Edit Action on api/controllers.js
+ 3. Edit Action on **api/controllers.js**
  ```
  module.exports = {
 	myGoAction : function(req, res){
@@ -27,7 +27,7 @@ $ sails new <projectName>
 };
 ```
 
- 4. Edit Route on config/routes.js
+ 4. Edit Route on **config/routes.js**
  ```
  '/': {view: 'homepage'},
 	'GET /foo/bar' : {controller :'Foo', action : 'myGoAction'}
@@ -35,7 +35,13 @@ $ sails new <projectName>
  
  # Connect OrientDB 
  
- 1. Define properies on config/connections.js
+ 1. install sails-orientdb module by npm 
+ ```
+ $ npm insatll sails-orientdb --save
+ ```
+ 
+ 
+ 2. Define properies on **config/connections.js**
  ```
  myLocalOrient: {
         adapter: 'sails-orientdb',
@@ -79,7 +85,7 @@ $ sails new <projectName>
 	}
 ```
 
-2. Create Model on api/models/<SomeName : Post.js>
+3. Create Model on **api/models/<SomeName : Post.js>**
 
 ```
 module.exports = {
@@ -105,7 +111,7 @@ module.exports = {
     }
 };
 ```
-3. Connect DB adapter on config/models.js
+4. Connect DB adapter on **config/models.js**
 ```
 module.exports.models = {
 
@@ -116,9 +122,47 @@ module.exports.models = {
 
 };
 ```
-*must be migrate: 'safe'*
+must be **migrate: 'safe'**
 
-4. 
+5. Activate your Orientdb on your Terminal
+![](https://github.com/mothcar/common/blob/master/images/orientdb.jpg)
+
+6. Test your sql on **api/controllers/FooController.js**
+```
+myGoAction : function(req, res){
+		let result ='';
+		Post.create({
+			name: 'Mike',
+			firstName: 'Mike'
+		}).exec(function(err, results) {
+			if (err) {
+				console.log('error ocurred!!!');
+				res.json(err);
+			} else {
+				//   res.json(results);
+				console.log(' Good Response!!!');
+
+				res.json(results);
+			}
+		});
+		// res.send(result);
+	}
+};
+```
+
+7. Run Sails
+```
+$ sails lift
+```
+
+8. Route api 
+```
+http://localhost:1337/
+```
+
+9. Done!
+![](https://github.com/mothcar/common/blob/master/images/result.jpg)
+
 
 
  
