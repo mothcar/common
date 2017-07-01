@@ -164,7 +164,6 @@ http://localhost:1337/
 9. Done
 ![](https://github.com/mothcar/common/blob/master/images/result.jpg)
 
-
 ## if get Errors
 
 ### case : "Cant send headers after they are sent."
