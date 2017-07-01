@@ -1,3 +1,9 @@
+# contents
+## 1. Setting Sails.js
+## 2. Connect OrientDB
+
+# Setting Sails.js
+
 1. Sails new Project
 
 ~~~~
@@ -27,6 +33,7 @@ $ sails new <projectName>
 	'GET /foo/bar' : {controller :'Foo', action : 'myGoAction'}
  ```
  
+ # Connect OrientDB 
  
  
  
