@@ -8,7 +8,7 @@ $ sails new <projectName>
  
  2. Create Controller
  ```
- $ sails create controller <justName>
+ $ sails create controller foo
  ```
  ![](https://github.com/mothcar/common/blob/master/images/controller.jpg)
  
