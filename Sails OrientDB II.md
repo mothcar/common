@@ -10,6 +10,9 @@ $ sails new <projectName>
  ```
  $ sails create controller <justName>
  ```
+ common/images/controller.jpg
+ 
+ 3. Create Action
  
 
 
