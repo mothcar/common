@@ -39,6 +39,7 @@ $ sails new <projectName>
  ```
  $ npm insatll sails-orientdb --save
  ```
+ cf) https://www.npmjs.com/package/sails-orientdb
  
  
  2. Define properies on **config/connections.js**
@@ -160,11 +161,14 @@ $ sails lift
 http://localhost:1337/
 ```
 
-9. Done!
+9. Done
 ![](https://github.com/mothcar/common/blob/master/images/result.jpg)
 
 
+## if get Errors
 
+### case : "'Cant send headers after they are sent'."
+: use just once ```res.json(<some result>);```
  
  
  
