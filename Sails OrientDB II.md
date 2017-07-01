@@ -18,7 +18,7 @@ $ sails new <projectName>
  ```
  ![](https://github.com/mothcar/common/blob/master/images/controller.jpg)
  
- 3. Edit Action on **api/controllers.js**
+ 3. Edit Action on **api/controllers/FooController.js**
  ```
  module.exports = {
 	myGoAction : function(req, res){
