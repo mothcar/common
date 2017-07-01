@@ -10,7 +10,7 @@ $ sails new <projectName>
  ```
  $ sails create controller <justName>
  ```
- ![](common/images/controller.jpg)
+ ![](mothcar/common/images/controller.jpg)
  https://github.com/mothcar/common/blob/master/images/controller.jpg
  
  3. Create Action
