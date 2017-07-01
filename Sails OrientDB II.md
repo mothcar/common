@@ -35,6 +35,93 @@ $ sails new <projectName>
  
  # Connect OrientDB 
  
+ 1. Define properies on config/connections.js
+ ```
+ myLocalOrient: {
+        adapter: 'sails-orientdb',
+        host: 'localhost',
+        port: 2424,
+        user: 'root',
+        password: '1748asdf',
+        database: 'o2',
+        schema : true,
+
+        // Additional options
+        options: {
+
+          // DB/Oriento Options
+          //
+          // database type: graph | document
+          databaseType : 'graph',
+          //
+          // storage type: memory | plocal
+          storage : 'plocal',
+
+          // Useful in REST APIs
+          //
+          // If `id` is URI encoded, decode it with `decodeURIComponent()` (useful when `id` comes from an URL)
+          decodeURIComponent : true,
+          //
+          // Replaces circular references with `id` after populate operations (useful when results will be JSONfied)
+          removeCircularReferences : false,
+
+          // migrations
+          //
+          // Drop tables without deleting edges/vertexes hence not ensuring graph consistency
+          // Will speed up drop operations. Only works with migration: 'alter' or 'drop'
+          unsafeDrop : false,
+
+          // other
+          //
+          // Turn parameterized queries on
+          parameterized : true
+        }
+	}
+```
+
+2. Create Model on api/models/<SomeName : Post.js>
+
+```
+module.exports = {
+
+    schema: true,
+    tableName: 'topic',
+    attributes: {
+        id: {
+            type: 'string',
+            primaryKey: true,
+            columnName: '@rid'
+        },
+        name: {
+            type: 'string',
+            unique: false,
+			columnName: 'title'
+        },
+        firstName: {
+            type: 'string',
+            unique: false,
+			columnName: 'some'
+        }
+    }
+};
+```
+3. Connect DB adapter on config/models.js
+```
+module.exports.models = {
+
+  // connection: 'localDiskDb',
+  connection: 'myLocalOrient',
+
+  migrate: 'safe'
+
+};
+```
+### must be migrate: 'safe'
+
+4. 
+
+
+ 
  
  
 
