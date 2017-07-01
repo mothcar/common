@@ -42,7 +42,7 @@ $ sails new <projectName>
         host: 'localhost',
         port: 2424,
         user: 'root',
-        password: '1748asdf',
+        password: 'your_password',
         database: 'o2',
         schema : true,
 
@@ -116,7 +116,7 @@ module.exports.models = {
 
 };
 ```
-### must be migrate: 'safe'
+*must be migrate: 'safe'*
 
 4. 
 
