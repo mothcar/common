@@ -29,8 +29,8 @@ $ sails new <projectName>
 
  4. Edit Route on **config/routes.js**
  ```
- '/': {view: 'homepage'},
-	'GET /foo/bar' : {controller :'Foo', action : 'myGoAction'}
+'/': {view: 'homepage'},
+'GET /foo/bar' : {controller :'Foo', action : 'myGoAction'}
  ```
  
  # Connect OrientDB 
