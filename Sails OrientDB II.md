@@ -167,8 +167,10 @@ http://localhost:1337/
 
 ## if get Errors
 
-### case : "'Cant send headers after they are sent'."
+### case : "Cant send headers after they are sent."
 : use just once ```res.json(<some result>);```
+
+how does it look ['] or this ["]
  
  
  
