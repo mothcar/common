@@ -1,8 +1,10 @@
 1. Sails new Project
 
-```
+~~~~
 $ sails new <projectName>
-```
+~~~~
+
+
 
  http://next.sailsjs.com/get-started
 
