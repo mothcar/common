@@ -161,7 +161,7 @@ $ sails lift
 http://localhost:1337/
 ```
 
-9. Done : The result view on browser like this by your database.
+9. Done : The result view on browser like this as your database.
 ![](https://github.com/mothcar/common/blob/master/images/result.jpg)
 
 ## if get Errors
