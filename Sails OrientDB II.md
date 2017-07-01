@@ -170,8 +170,9 @@ http://localhost:1337/
 ### case : "Cant send headers after they are sent."
 : use just once ```res.json(<some result>);```
 
-how does it look ['] or this ["]
- 
+### Refferences : Appreciate
+https://github.com/gauravdhiman/sailsjs-angularjs-orientdb-poc/tree/master/api
+
  
  
 
