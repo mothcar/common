@@ -88,6 +88,7 @@ cf) http://next.sailsjs.com/get-started
 ```
 
 3. Create Model on **api/models/<SomeName : Post.js>**
+create new file : **Post.js**
 
 ```
 module.exports = {
