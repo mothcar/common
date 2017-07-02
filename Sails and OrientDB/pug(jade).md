@@ -12,4 +12,7 @@ $ apm install language-pug
 ### Result
 ![](https://github.com/mothcar/common/blob/master/images/pug.png)
 
+### Reference
+https://atom.io/packages/language-pug
+
 
