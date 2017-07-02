@@ -149,7 +149,6 @@ myGoAction : function(req, res){
 			}
 		});
 		// res.send(result);
-	}
 };
 ```
 
