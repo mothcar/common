@@ -38,7 +38,7 @@ cf) http://next.sailsjs.com/get-started
  
  1. install sails-orientdb module by npm 
  ```
- $ npm insatll sails-orientdb --save
+ $ npm install appscot/sails-orientdb --save
  ```
  cf) https://www.npmjs.com/package/sails-orientdb
  
