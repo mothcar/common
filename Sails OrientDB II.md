@@ -14,6 +14,7 @@ cf) http://next.sailsjs.com/get-started
  
  2. Create Controller
  ```
+ $ cd <projectName>
  $ sails generate controller foo
  ```
  ![](https://github.com/mothcar/common/blob/master/images/new_foo.png)
