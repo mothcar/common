@@ -156,7 +156,7 @@ http://localhost:1337/
 ```
 
 9. Done : The result view on browser like this as your database.
-![](https://github.com/mothcar/common/blob/master/images/result.jpg)
+![](https://github.com/mothcar/common/blob/master/images/new_result.jpg)
 
 ## if get Errors
 
