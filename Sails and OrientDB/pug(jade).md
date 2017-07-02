@@ -15,4 +15,13 @@ $ apm install language-pug
 ### Reference
 https://atom.io/packages/language-pug
 
+# usage
+comment
+```
+//-
+```
+### Docs
+https://pugjs.org/api/getting-started.html
+https://pugjs.org/language/inheritance.html
+
 
