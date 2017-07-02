@@ -16,7 +16,7 @@ cf) http://next.sailsjs.com/get-started
  ```
  $ sails generate controller foo
  ```
- ![](https://github.com/mothcar/common/blob/master/images/controller.jpg)
+ ![](https://github.com/mothcar/common/blob/master/images/new_foo.png)
  
  3. Edit Action on **api/controllers/FooController.js**
  ```
