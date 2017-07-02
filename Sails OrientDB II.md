@@ -152,7 +152,7 @@ $ sails lift
 
 8. Route api 
 ```
-http://localhost:1337/
+http://localhost:1337/foo/bar
 ```
 
 9. Done : The result view on browser like this as your database.
