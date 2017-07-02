@@ -3,3 +3,11 @@
 ```
 $ apm install language-pug
 ```
+### Configure
+```
+".source.pug":
+  whitespace:
+    removeTrailingWhitespace: false
+```
+### Result
+
