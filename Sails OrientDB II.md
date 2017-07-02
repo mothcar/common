@@ -10,11 +10,11 @@
 $ sails new <projectName>
 ~~~~
 
- http://next.sailsjs.com/get-started
+cf) http://next.sailsjs.com/get-started
  
  2. Create Controller
  ```
- $ sails create controller foo
+ $ sails generate controller foo
  ```
  ![](https://github.com/mothcar/common/blob/master/images/controller.jpg)
  
