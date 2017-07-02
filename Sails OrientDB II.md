@@ -132,23 +132,16 @@ must be **migrate: 'safe'**
 
 6. Test your sql on **api/controllers/FooController.js**
 ```
-myGoAction : function(req, res){
-		let result ='';
-		Post.create({
-			name: 'Mike',
-			firstName: 'Mike'
-		}).exec(function(err, results) {
-			if (err) {
-				console.log('error ocurred!!!');
-				res.json(err);
-			} else {
-				//   res.json(results);
-				console.log(' Good Response!!!');
-
-				res.json(results);
-			}
+module.exports = {
+	myGoAction : function(req, res){
+		Post.query("SELECT FROM topic", function(err, retrievedUsers){
+			// console.log(retrievedUsers);
+			// result = retrievedUsers;
+		}).then(function(result){
+			res.json(result);
 		});
-		// res.send(result);
+	}
+
 };
 ```
 
