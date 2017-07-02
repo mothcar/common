@@ -10,4 +10,6 @@ $ apm install language-pug
     removeTrailingWhitespace: false
 ```
 ### Result
+![](https://github.com/mothcar/common/blob/master/images/pug.png)
+
 
