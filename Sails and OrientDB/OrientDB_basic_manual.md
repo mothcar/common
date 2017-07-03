@@ -24,6 +24,9 @@ POI class를 만들고 property를 넣어보자.
 ![](https://github.com/mothcar/common/blob/master/images/poi.jpg)  
 또한 system classes가 4페이지(전에는 2페이지)로 늘어난것을 확인할 수 있다.  
 ![](https://github.com/mothcar/common/blob/master/images/poly.jpg)  
-select from POI limit 100 // 기본으로 limit이 30정도에 걸려 있어서 DB가 없는 줄 알 수 있다.  
+```
+select from POI limit 100 
+```
+// 기본으로 limit이 30정도에 걸려 있어서 DB가 없는 줄 알 수 있다.  
 ***  
 준비중...
