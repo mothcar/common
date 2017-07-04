@@ -7,6 +7,12 @@ Be ready OrientDB Studio using Terminal.
 ```
 $ ./server.sh
 ```
+install npm modules
+```
+npm install orientjs
+npm install fast-csv
+```
+
 Then create DB and set class to geospatial property
 ```
 orientdb> create database <databaseName>
