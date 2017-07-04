@@ -46,6 +46,11 @@ var insertElement = function(data){
 }
 ```
 
+Execute
+```
+$ node csvimport.js POI data/poland-poi.csv 
+```
+node`node명령어` csvimport.js`실행파일` POI`className` data/poland-poi.csv`CSV파일`   
 
 
 
