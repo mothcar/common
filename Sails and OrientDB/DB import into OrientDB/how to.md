@@ -3,7 +3,7 @@
 
 ## Environment
 sample CSV file.
-> Be ready OrientDB Studio using Terminal.
+Be ready OrientDB Studio using Terminal.
 ```
 $ ./server.sh
 ```
@@ -50,7 +50,7 @@ Execute
 ```
 $ node csvimport.js POI data/poland-poi.csv 
 ```
-node`node명령어` csvimport.js`실행파일` POI`className` data/poland-poi.csv`CSV파일`   
+>> node`node명령어` csvimport.js`실행파일` POI`className` data/poland-poi.csv`CSV파일`   
 
 
 
