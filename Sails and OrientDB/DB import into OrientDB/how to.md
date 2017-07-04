@@ -18,6 +18,7 @@ orientdb> create property <className>.location embedded OPoint
 javascript using localhost id and password  
 insert properties : 3 (name, location, type)  
 CSV data : data.full_name, data.type, 
+위에서 location은 빠져있는데 이유는 파싱이 좀 복잡하다. *ST_GeomFromText*를 사용하는데 이 문법은 [이곳](http://www.postgis.org/docs/ST_GeomFromText.html)을 참조한다.  
 ```
 var insertElement = function(data){
   queue++;
