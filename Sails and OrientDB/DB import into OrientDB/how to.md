@@ -3,7 +3,7 @@
 
 ## Environment
 sample CSV file.
-Be ready OrientDB Studio using Terminal.
+> Be ready OrientDB Studio using Terminal.
 ```
 $ ./server.sh
 ```
