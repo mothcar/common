@@ -1,7 +1,7 @@
 ## Reference
 [luigidellaquila](https://github.com/mothcar/wkt-to-orient)  
 
-create DB
+create DB and set class to geospatial property
 ```
 orientdb> create database <databaseName>
 orientdb> create class <className> extends V
