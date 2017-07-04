@@ -2,7 +2,7 @@
 [luigidellaquila](https://github.com/mothcar/wkt-to-orient)  
 
 ## Environment
-sample CSV file.
+sample CSV file.  
 Be ready OrientDB Studio using Terminal.
 ```
 $ ./server.sh
