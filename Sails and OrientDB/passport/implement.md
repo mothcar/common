@@ -173,7 +173,7 @@ module.exports.http = {
 ```
 Into the order array we added passportInit and passportSession after the session element. The name of this array is quite self-explanatory, the elements must be ordered this way.  
 
-## Step 10 : define Passport local strategy for authentication
+## Step 9 : define Passport local strategy for authentication
 create a new file called **passport.js**
 
 ```
@@ -222,7 +222,7 @@ passport.use(new LocalStrategy({
 ));
 ```
 
-## Step 11 : Step 8: add a new policy  
+## Step 10 : Step 8: add a new policy  
 create `isAuthenticated.js` into the `/api/policies/` folder
 ```
 module.exports = function(req, res, next) {
@@ -236,11 +236,11 @@ module.exports = function(req, res, next) {
 ```
 Briefly, we are telling Sails what to do if a user is not authenticated, then we can bind this policy to any of the controllers in the app.  
 
-## Step 12 : bind the policy to a controller
+## Step 11 : bind the policy to a controller
 Let's create a controller and a model just for testing what we have done.  
 I am going to call this api post.
 ```
-sails generate api post
+$ sails generate api post
 ```
 Then let's bind the policy to the PostController by updating yourproject/config/policies.js:  
 ```
@@ -254,6 +254,13 @@ module.exports.policies = {
 
 };
 ```
+
+## Step 12 : run a test
+Lift your application  
+```
+$ sails lift
+```
+
 
 ## Refernce
 http://iliketomatoes.com/implement-passport-js-authentication-with-sails-js-0-10-2/
