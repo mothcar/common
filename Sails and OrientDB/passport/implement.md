@@ -222,7 +222,8 @@ passport.use(new LocalStrategy({
 ));
 ```
 
-## Step 11 : Step 8: add a new policy `isAuthenticated.js` into the `/api/policies/` folder
+## Step 11 : Step 8: add a new policy  
+`isAuthenticated.js` into the `/api/policies/` folder
 ```
 module.exports = function(req, res, next) {
    if (req.isAuthenticated()) {
