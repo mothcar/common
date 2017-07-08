@@ -54,4 +54,20 @@ script(type='text/javascript').
 h1 This is pub Homepage
 h2 Welcome
 ```
+## Useful technique
+> include
+```pug
+form(method='POST' action='/login')
+	div.form-group
+		label(for='email') Email : 
+		input#email.form-control(type='email' name='email' placeholder='your@gmail.com')
+	div.form-group
+		label(for='pwd') password : 
+		input#pwd.form-control(type='password' name='password' placeholder='6자리 이상')
+	button.btn.btn-primary(type='submit') Log in
+
+```
+
+## form :: [LINK](https://teamtreehouse.com/library/creating-a-registration-form-with-pug-jade-2)
+
 
