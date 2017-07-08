@@ -29,12 +29,12 @@ form(method='POST' action='/user')
 	input(type='submit' value='submit')
 ```
 
-## Step 4 : Connect view file
+## Step 5 : Connect view file
 Open `config / routes.js`
 ```
-'GET /' 						: {controller :'Home', action : 'homeAction', view : 'homepage'},
-'GET /login'				: {view : 'login'},
-'GET /signup'				: {view : 'signup'},
-'/main'							: {view : 'main'}
+'GET /' 	: {controller :'Home', action : 'homeAction', view : 'homepage'},
+'GET /login'	: {view : 'login'},
+'GET /signup'	: {view : 'signup'},
+'/main'		: {view : 'main'}
 ```
 
