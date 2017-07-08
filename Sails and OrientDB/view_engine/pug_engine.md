@@ -38,3 +38,8 @@ Open `config / routes.js`
 '/main'		: {view : 'main'}
 ```
 
+
+## Tutorial :: [LINK](https://codepen.io/mimoduo/post/learn-pug-js-with-pugs)
+
+
+
