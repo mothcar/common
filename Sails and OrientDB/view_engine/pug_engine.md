@@ -40,7 +40,8 @@ Open `config / routes.js`
 ```
 
 
-## Tutorial :: [LINK](https://codepen.io/mimoduo/post/learn-pug-js-with-pugs)
+## Basic Tutorial :: [LINK](https://codepen.io/mimoduo/post/learn-pug-js-with-pugs)
+## Syntax :: [LINK](https://medium.com/@antonioregadas/getting-started-with-pug-template-engine-e49cfa291e33)
 
 ## import file
 ```
