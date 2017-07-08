@@ -56,7 +56,7 @@ h2 Welcome
 ```
 ## Useful technique
 > include
->> make part
+>> make part `parts/in_login_form.pug`
 ```pug
 form(method='POST' action='/login')
 	div.form-group
