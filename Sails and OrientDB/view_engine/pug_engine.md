@@ -1,19 +1,19 @@
 ## Start
 
 ## Step 1 : install pug module
-```
-npm install --save pug
+```console
+$ npm install --save pug
 ```
 
 ## Step 2 : Configuring the view engine
 Go to `config / views.js` and edit
-```
+```javascript
 // engine: 'ejs',
   engine: 'pug',
 ```
 ## Step 3 : Sample pug
 In pug syntax, indent is very important!
-```
+```pug
 h1 pug Singup
 form(method='POST' action='/user')
 	input(type='username' name='username')
@@ -25,14 +25,14 @@ form(method='POST' action='/user')
 
 ## Step 4 : update page (extends)
 If you want to update page, you will need to start with 
-```
+```pug
 extends ../layout
 block body
 ```
 
 ## Step 5 : Connect view file
 Open `config / routes.js`
-```
+```javascript
 'GET /' 	: {controller :'Home', action : 'homeAction', view : 'homepage'},
 'GET /login'	: {view : 'login'},
 'GET /signup'	: {view : 'signup'},
@@ -44,7 +44,7 @@ Open `config / routes.js`
 ## Syntax :: [LINK](https://medium.com/@antonioregadas/getting-started-with-pug-template-engine-e49cfa291e33)
 
 ## import file
-```
+```pug
 link(href='/styles/styles.css', rel='stylesheet')
 script(src='/js/somejs.js')
 script(type='text/javascript').  
