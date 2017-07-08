@@ -44,11 +44,12 @@ Open `config / routes.js`
 ## import file
 ```
 link(href='/styles/styles.css', rel='stylesheet')
+script(src='/js/somejs.js')
 script(type='text/javascript').  
-    var myVar = 'Hello world';
-    console.log(myVar);
-h1 This is pug Homepage
+	var myVar = 'Hello world ';
+	var sum = myVar+somevar;
+	console.log(sum);
+h1 This is pub Homepage
 h2 Welcome
-
 ```
 
