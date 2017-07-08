@@ -56,6 +56,7 @@ h2 Welcome
 ```
 ## Useful technique
 > include
+>> make part
 ```pug
 form(method='POST' action='/login')
 	div.form-group
@@ -66,6 +67,11 @@ form(method='POST' action='/login')
 		input#pwd.form-control(type='password' name='password' placeholder='6자리 이상')
 	button.btn.btn-primary(type='submit') Log in
 
+```
+>> insert part into view pug file
+```pug
+div.col-md-4.column
+	include parts/in_login_form.pug
 ```
 
 ## form :: [LINK](https://teamtreehouse.com/library/creating-a-registration-form-with-pug-jade-2)
