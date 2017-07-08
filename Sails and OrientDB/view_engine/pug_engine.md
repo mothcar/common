@@ -11,14 +11,7 @@ Go to `config / views.js` and edit
 // engine: 'ejs',
   engine: 'pug',
 ```
-
-## Step 3 : Create pug file
-In pug file, you will need to start with 
-```
-extends ../layout
-block body
-```
-## Step 4 : Sample
+## Step 3 : Sample pug
 In pug syntax, indent is very important!
 ```
 h1 pug Singup
@@ -27,6 +20,14 @@ form(method='POST' action='/user')
 	input(type='email' name='email')
 	input(type='password' name='password')
 	input(type='submit' value='submit')
+```
+
+
+## Step 4 : update page (extends)
+If you want to update page, you will need to start with 
+```
+extends ../layout
+block body
 ```
 
 ## Step 5 : Connect view file
