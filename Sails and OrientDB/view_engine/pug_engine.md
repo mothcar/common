@@ -41,5 +41,14 @@ Open `config / routes.js`
 
 ## Tutorial :: [LINK](https://codepen.io/mimoduo/post/learn-pug-js-with-pugs)
 
+## import file
+```
+link(href='/styles/styles.css', rel='stylesheet')
+script(type='text/javascript').  
+    var myVar = 'Hello world';
+    console.log(myVar);
+h1 This is pug Homepage
+h2 Welcome
 
+```
 
