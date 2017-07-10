@@ -23,6 +23,12 @@ a로 시작하는 모든것을 삭제
 ```sql
 > delete vertex from post where content BETWEEN 'a' and 'z'
 ```
+영어를 포함한 숫자들 삭제
+```sql
+> delete vertex from post where content MATCHES '[A-Z0-9._%+-]'
+```
+### Reference
+[Regular Expressions](http://www.regular-expressions.info/)
 
 ## update record
 ```sql
