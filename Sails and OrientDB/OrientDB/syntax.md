@@ -9,4 +9,9 @@
 ```sql
 > delete vertex from <yourClass> where <columnName> like '%a'
 ```
+## update record
+```sql
+> update #50:0 set email='david@naver.com'
+```
+
 
