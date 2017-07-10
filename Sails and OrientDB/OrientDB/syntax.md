@@ -27,6 +27,8 @@ a로 시작하는 모든것을 삭제
 ```sql
 > delete vertex from post where content MATCHES '[A-Z0-9._%+-]'
 ```
+### Conditions
+[Syntax Conditions](http://orientdb.com/docs/2.0/orientdb.wiki/SQL-Where.html)
 ### Reference
 [Regular Expressions](http://www.regular-expressions.info/)
 
