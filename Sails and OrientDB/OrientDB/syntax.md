@@ -19,6 +19,11 @@ a로 시작하는 모든것을 삭제
 ```sql
 > delete vertex from post where content like 'a%'
 ```
+영어로 된 모든 것 삭제
+```sql
+> delete vertex from post where content BETWEEN 'a' and 'z'
+```
+
 ## update record
 ```sql
 > update #50:0 set email='david@naver.com'
