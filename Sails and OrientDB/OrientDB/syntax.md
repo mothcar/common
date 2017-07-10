@@ -15,6 +15,10 @@
 > delete vertex from post where content like '%a'
 > delete vertex from post where @rid=#41:7
 ```
+a로 시작하는 모든것을 삭제
+```sql
+> delete vertex from post where content like 'a%'
+```
 ## update record
 ```sql
 > update #50:0 set email='david@naver.com'
