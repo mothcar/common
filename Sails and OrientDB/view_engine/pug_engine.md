@@ -78,8 +78,10 @@ extends
 > 최종적으로 updata된 것만 보여준다. 그 전에 작은 변화라도 있으면 잘 못된 결과를 보여준다.  
 
 include
-> variable등을 보여줄 수 있다.
-> pass
+> variable등을 보여줄 수 있다.  
+
+> send
+
 ```javascript
 - var somevar = 'some param'
 ```
