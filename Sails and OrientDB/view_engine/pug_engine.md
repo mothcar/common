@@ -79,6 +79,14 @@ extends
 
 include
 > variable등을 보여줄 수 있다.
+> pass
+```javascript
+- var somevar = 'some param'
+```
+> get
+```javascript
+#{somevar}
+```
 
 
 ## form :: [LINK](https://teamtreehouse.com/library/creating-a-registration-form-with-pug-jade-2)
