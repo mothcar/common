@@ -1,3 +1,12 @@
+## client image.pug
+```pug
+p select a image from your pc
+	form(action="/imageup", method="post", enctype="multipart/form-data")
+		input(type="text", name="title")
+		input(type="file", multiple, name="image")
+		button(type="submit", value="Upload") Upload File
+```
+
 ## create FileController.js
 ```javascript
 /**
