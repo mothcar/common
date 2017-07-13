@@ -43,3 +43,8 @@ module.exports = {
 ## Reference
 [image upload Git](https://github.com/ReyesMagos/images-upload-test-sails)
 
+## Beginning S3 : connection with IAM
+[LINK](http://docs.aws.amazon.com/sdk-for-javascript/v2/developer-guide/getting-started-nodejs.html#getting-started-nodejs-download)
+
+
+
