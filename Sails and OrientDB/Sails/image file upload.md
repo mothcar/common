@@ -19,7 +19,7 @@ p select a image from your pc
 module.exports = {
     upload: function(req, res, next) {
         // body...
-        var uploadFile= req.file('userPhoto');
+        var uploadFile= req.file('image');
         console.log();
         var uploadPath = process.cwd()+'/assets/images';
         uploadFile.upload({
