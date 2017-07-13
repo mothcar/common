@@ -47,4 +47,7 @@ module.exports = {
 [LINK](http://docs.aws.amazon.com/sdk-for-javascript/v2/developer-guide/getting-started-nodejs.html#getting-started-nodejs-download)
 
 
+## Success Reference : 
+[LINK](https://github.com/sails101/file-uploads/blob/master/api/controllers/FileController.js#L15)
+
 
