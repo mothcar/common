@@ -37,4 +37,9 @@ a로 시작하는 모든것을 삭제
 > update #50:0 set email='david@naver.com'
 ```
 
+## expand [LINK](> http://orientdb.com/orientdb-improved-sql-filtering/)
+```sql
+> select out('Friend')[0] from Profile where name = 'Luca'
+```
+
 
