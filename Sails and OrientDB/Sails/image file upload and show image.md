@@ -51,6 +51,10 @@ module.exports = {
 [LINK](https://github.com/sails101/file-uploads/blob/master/api/controllers/FileController.js#L15)
 
 # Show image
+Why do I need to this :  
+If not set below, we can not see image. We can see just XML file view.  
+So I need to config the AWS policy like below.  
+
 It doesn't have to do with CORS, it's the S3 bucket configuration on Amazon Web Services.  
 
 If you are comfortable with the entire bucket being public-read, here's the official AWS guide, and my rough steps:  
