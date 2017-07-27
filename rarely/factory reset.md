@@ -12,4 +12,6 @@
 5. node js
 6. sails js
 
+It takes 4 hours to reset and install basic software.
+
 and Backup to Time Machine
