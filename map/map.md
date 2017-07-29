@@ -10,4 +10,10 @@ latitudy .  longitude
 6.54321  
 654km 321m  
 
+<br/>
+
+![latlon](https://github.com/mothcar/common/blob/master/images/worldMap.png)  
+
+
+
 
