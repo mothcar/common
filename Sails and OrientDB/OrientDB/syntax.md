@@ -10,8 +10,11 @@
 ## show Edge Record
 ```sql
 > select *, expand(inE('write')) from post
-```
-<br/>  
+``` 
+### Reference : [LINK](https://stackoverflow.com/questions/28534120/orientdb-sql-query-to-select-edge-and-vertex-fields-property) 
+
+<br/>  
+
  
 
 # Common  
