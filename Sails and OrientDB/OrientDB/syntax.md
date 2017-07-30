@@ -1,4 +1,4 @@
-# Edge . 
+# Edge  
 ## create Edge
 ```sql
 > create class <edgeName> extends E
@@ -11,9 +11,8 @@
 ```sql
 > select *, expand(inE('write')) from post
 ```
-<br/>
-# Common . 
-<br/>
+<br/>  
+# Common  
 ## select record
 ```sql
 > select from post order by createdAt desc
