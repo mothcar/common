@@ -1,8 +1,19 @@
+# Edge . 
 ## create Edge
 ```sql
 > create class <edgeName> extends E
 ```
-
+## create Edge Record
+```sql
+> create edge write from #49:0 to #41:81 set comment = 'nice product'
+```
+## show Edge Record
+```sql
+> select *, expand(inE('write')) from post
+```
+<br/>
+# Common . 
+<br/>
 ## select record
 ```sql
 > select from post order by createdAt desc
