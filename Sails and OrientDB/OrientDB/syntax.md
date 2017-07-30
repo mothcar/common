@@ -12,9 +12,9 @@
 > select *, expand(inE('write')) from post
 ```
 <br/>  
-# Common . 
+# Common 
 # Common  
-## select record
+## select record  
 ```sql
 > select from post order by createdAt desc
 ```
