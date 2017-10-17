@@ -6,7 +6,7 @@ $ weexpack platform add ios / android
 ```
 ### if fail to create android platform
 ```
-zsh : alias adb = '/Users/paulhwang/Library/Android/sdk/platform-tools/adb'
+zsh : alias adb = '/Users/<myfolder>/Library/Android/sdk/platform-tools/adb'
 ```
 
 ### Project created
