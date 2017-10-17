@@ -25,4 +25,8 @@ directives
 - v-show="true/false"
 - v-if="true / false"  & else
 
+<br/>
+### Some command
+https://github.com/weexteam/weex-hackernews
+
 
