@@ -1,3 +1,10 @@
+# Class  
+## create Class
+```sql
+> create class <className> extends V
+```
+
+
 # Edge  
 ## create Edge
 ```sql
