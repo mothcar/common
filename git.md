@@ -3,12 +3,28 @@
 
 Tutorial Korean [link](http://rogerdudler.github.io/git-guide/index.ko.html)
 
+### 4. To make My Seed Project
+```
+# local
+1. create project
+2. in Github
+create repository
+copy url
+
+local
+$ git init
+$ git push
+```
+
+### next
+
+
 <hr>
 ### OLD VERSION 
-### ....
-### ...
-### ..
-### . 
+### ....  
+### ...  
+### ..  
+### .   
 
 git
 
@@ -36,19 +52,6 @@ $ git commit -m "some message"
 $ git push origin master
 ~~~~
 
-### 4. To make My Seed Project
-```
-# local
-1. create project
-2. in Github
-create repository
-copy url
 
-local
-$ git init
-$ git push
-```
-
-### next
 
 
