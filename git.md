@@ -1,3 +1,11 @@
+
+### updated Git Tutorial
+
+Tutorial Korean [link](http://rogerdudler.github.io/git-guide/index.ko.html)
+
+<hr>
+
+
 git
 
 ubuntu
