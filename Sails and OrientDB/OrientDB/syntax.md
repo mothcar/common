@@ -53,31 +53,50 @@ a로 시작하는 모든것을 삭제
 
 ## cases
 ```
-시간을 조건으로 select 		: select from post where createdAt  between '2018-01-21 08:12:42' and '2018-01-21 08:14:42'  
-위 응용 				: update (select from post where createdAt  between '2018-01-21 08:12:42' and '2018-01-21 08:14:42') increment view_level = 10
-위 응용 where condition	: update post increment view_level = -10 where createdAt  between '2018-01-21 08:12:42' and '2018-01-21 08:14:42'
-Add to array 			: update #32:50 add channel = "aaa"
-Remove from array		: update #32:50 remove channel = "aaa"
-Json 새필드 추가		: update #22:2 merge {"@type":"d","@version":0,"char":"philosopy"}
-Json 필드 update		: update #22:2 merge {"humanity":{"@type":"d","@version":0,"char":"philosopy"}}
-위험함 레코드 전체를 리셋함 	: update #22:2 content {"humanity":{"type":"new"}}
-필드에 배열 데이터 넣기		: update Users set affiliated = [#33:31, #33:32] where @rid=#24:0
-필드가 array인 경우 element	: select from users where affiliated contains #33:31
-Json element 추가		: update users put humanity= 'peach', 10 where @rid = #23:1  // “@type”=”d”, “@version=’” 삭제후 
+시간을 조건으로 select 		:
+> select from post where createdAt  between '2018-01-21 08:12:42' and '2018-01-21 08:14:42'  
+위 응용 				: 
+> update (select from post where createdAt  between '2018-01-21 08:12:42' and '2018-01-21 08:14:42') increment view_level = 10
+위 응용 where condition	: 
+> update post increment view_level = -10 where createdAt  between '2018-01-21 08:12:42' and '2018-01-21 08:14:42'
+Add to array 			: 
+> update #32:50 add channel = "aaa"
+Remove from array		: 
+> update #32:50 remove channel = "aaa"
+Json 새필드 추가		: 
+> update #22:2 merge {"@type":"d","@version":0,"char":"philosopy"}
+Json 필드 update		: 
+> update #22:2 merge {"humanity":{"@type":"d","@version":0,"char":"philosopy"}}
+위험함 레코드 전체를 리셋함 	: 
+> update #22:2 content {"humanity":{"type":"new"}}
+필드에 배열 데이터 넣기		: 
+> update Users set affiliated = [#33:31, #33:32] where @rid=#24:0
+필드가 array인 경우 element	: 
+> select from users where affiliated contains #33:31
+Json element 추가		: 
+> update users put humanity= 'peach', 10 where @rid = #23:1  // “@type”=”d”, “@version=’” 삭제후 
 
 이전 방법은 ‘embedded를 사용하지 않았을때이고 이 다음부터는 embedded를 사용해서 입력한 예 먼저 property 설정
-Json 필드를 활성화하기위해 EMBEDDEDLIST 입력 	: CREATE PROPERTY Users.humanity EMBEDDEDSET STRING / CREATE PROPERTY Users.about_info EMBEDDEDSET STRING
-Json 필드에 element없으면 처음에는 입력 		: insert into Users set about_info = [{"@type":"d","@class":"Adress","city":"london", "zipcode":"4323"}] where @rid = #21:6
-위 절차는 안해도 된다. setting후 최초입력하면 [“”]	: update Users add about_info = [{"@type":"d","@class":"sample","city":"lisbon", "zipcode":"1516"}] where @rid = #21:0
-Json element 추가 					: update Users add about_info = [{"@type":"d","@class":"Adress","city":"lisbon", "zipcode":"1516"}] where @rid = #21:6
-: update Users set humanity= {"@type":"d", "Name":"George", "Age":"32"}
-: update Users add humanity= {"@type":"d", "aa":"bb", "cc":"dd"}
-: update Users add humanity= {"@type":"d", name:"somename"}
-: update Users add about_info= {name:"somename"}
-추가 sql 						: update Users add about_info="+about_info+", humanity=" +humanity+" where @rid=" + user_id
-Embedded List 일때 Json 필드내에 element 수정 	: update users set about_info[5] = {"@type":"d","@version":0,"sports":"soccer"} where @rid= #21:0
-Embedded SET 일때 					: update users set humanity[0].telephone = '0000' where @rid= #21:0
-2개이상 수정일때 					: update users set humanity[0].telephone = '010-7168-1777', humanity[1].new2 = 'name is changed' where @rid= #21:0
+Json 필드를 활성화하기위해 EMBEDDEDLIST 입력 	: 
+> CREATE PROPERTY Users.humanity EMBEDDEDSET STRING / CREATE PROPERTY Users.about_info EMBEDDEDSET STRING
+Json 필드에 element없으면 처음에는 입력 		: 
+> insert into Users set about_info = [{"@type":"d","@class":"Adress","city":"london", "zipcode":"4323"}] where @rid = #21:6
+위 절차는 안해도 된다. setting후 최초입력하면 [“”]	: 
+> update Users add about_info = [{"@type":"d","@class":"sample","city":"lisbon", "zipcode":"1516"}] where @rid = #21:0
+Json element 추가 					: 
+> update Users add about_info = [{"@type":"d","@class":"Adress","city":"lisbon", "zipcode":"1516"}] where @rid = #21:6
+> update Users set humanity= {"@type":"d", "Name":"George", "Age":"32"}
+> update Users add humanity= {"@type":"d", "aa":"bb", "cc":"dd"}
+> update Users add humanity= {"@type":"d", name:"somename"}
+> update Users add about_info= {name:"somename"}
+추가 sql 						: 
+> update Users add about_info="+about_info+", humanity=" +humanity+" where @rid=" + user_id
+Embedded List 일때 Json 필드내에 element 수정 	: 
+> update users set about_info[5] = {"@type":"d","@version":0,"sports":"soccer"} where @rid= #21:0
+Embedded SET 일때 					: 
+> update users set humanity[0].telephone = '0000' where @rid= #21:0
+2개이상 수정일때 					: 
+> update users set humanity[0].telephone = '010-7168-1777', humanity[1].new2 = 'name is changed' where @rid= #21:0
 
 
 ```
